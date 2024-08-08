@@ -656,3 +656,350 @@ footer i{
     margin-bottom: 20px;
     transition: 0.4s;
 }
+
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+/* Header Styles */
+/* .header {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    color: #61dafb;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.btn {
+    display: flex;
+    align-items: center;
+}
+.btn p {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #61dafb;
+    cursor: pointer;
+} */
+/* Hero Section Styles */
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px;
+    background-color: #282c34;
+    color: white;
+}
+.cont .text-container {
+    max-width: 50%;
+}
+.fox {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cat {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.email {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+}
+/* .image {
+    max */
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Header Styles */
+.header {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61dafb;
+}
+.navbar a {
+    color: #61dafb;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.btn p {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #61dafb;
+    display: inline-block;
+    cursor: pointer;
+}
+/* Hero Section Styles */
+.cont {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #282c34;
+    color: white;
+}
+.cont .text-container {
+    margin-bottom: 30px;
+}
+.fox {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cat {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.email {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+/* List Images Section */
+.list-image ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+}
+.list-image ul li {
+    list-style: none;
+}
+/* Features Section Styles */
+.features {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.features .dog {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.features p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.feature-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: left;
+}
+.feature-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.feature-card p {
+    font-size: 16px;
+    color: #555;
+}
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.testimonials p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.testimonial-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.testimonial-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    max-width: 100px;
+    height: auto;
+}
+.testimonial-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.testimonial-card p {
+    font-size: 16px;
+    color: #555;
+}
+.star {
+    color: gold;
+}
+/* List Images Section Inside Testimonials */
+.listed-image ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+}
+.listed-image ul li {
+    list-style: none;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar, .btn {
+        display: none;
+    }
+    .header {
+        text-align: center;
+    }
+    .feature-card, .testimonial-card {
+        width: 100%;
+    }
+    .list-image ul, .listed-image ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    .fox {
+        font-size: 32px;
+    }
+    .cat {
+        font-size: 18px;
+    }
+    .features h2,
+    .testimonials h2 {
+        font-size: 28px;
+    }
+    .features p, .testimonials p {
+        font-size: 16px;
+    }
+    .btn p {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .email {
+        margin-bottom: 10px;
+    }
+    .email, .button {
+        width: 80%;
+    }
+}
+
