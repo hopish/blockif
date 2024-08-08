@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* .dropdown-btn {
+  Style the dropdown button
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  display: none;
+} */
+.accordion-content {
+  display: flex;
+  overflow: hidden;
+}
+    </style>
+</head>
+<body>
+    <section class="faq" id="faq">
+        <div class="container">
+          <div>
+            <h6 class="dog" id="card">FAQ</h6>
+          </div>
+          <h2>Common questions in your mind</h2>
+          <p id="p">we show the frequently question that our ask</p>
+          <div class="faq-item">
+            <h3 class="accordion-header">Who can use Blockify Templates? </h3>
+            <div class="accordion-content">
+              <p>Actually anyone can use our templates for their business purposes, from SaaS companies, software companies, e-commerce profiles, and you can use these templates for your personal websites or portfolio. Just pick what you're working right now. You can use as per your project needs by adjusting the settings of the project that you're working on.</p>
+            </div>
+          </div>
+          </div>
+      </section>
+    <!-- <section class="faq" id="faq">
+        <div class="container">
+            <div>
+                <h6 class="dog" id="card">FAQ</h6>
+            </div>
+            <h2>Common questions in your mind</h2>
+            <p id="p">we show the frequently question that our ask</p>
+            <div class="faq-item">
+                <h3>Who can use Blockify Templates? </h3>
+                <div class="dropdown">
+                    <button class="dropdown-btn">+</button>
+                    <div class="content">
+                        <p>Actually anyone can use our templates for their business purposes, from SaaS companies, software companies, e-commerce profiles, and you can use these templates for your personal websites or portfolio. Just pick what you're working right now. You can use as per your project needs by adjusting the settings of the project that you're working on.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section> -->
+    <script>
+//        
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach(header => {
+  header.addEventListener('click', () => {
+    const content = header.nextElementSibling;   
+
+    content.classList.toggle('active');   
+
+  });
+});
+    </script>
+</body>
+</html>
