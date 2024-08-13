@@ -13,7 +13,7 @@
     <!--head section-->
     <section>
     <header class="header">
-        <div class="container"></div>
+        <div class="container">
             <nav>
               <div class="log">BLACKIFY.</div> 
                 <div class="navbar">
@@ -28,24 +28,26 @@
                 </div>
             </nav>
         </div>
+        </div>
             </header>
             <div class="cont">
                 <span class="text-container">
                     <p class="fox">Multipurpose<br>Saaa Website for <br> Increasing Revenue</p>
                     <p class="cat">Brace yourself for an extraodinary journey into the future of technology</p>
                 </span>
-                <div class="image">
-                    <img src="virus.jpeg" width="50%" height="50%" alt="blockify">
-                </div>
-            </div>
-        </div>
-        
         <form>
-            <div class="form">
-            <input type="email" placeholder="your email address" class="email">
-            <button class="button">GET STARTED</button>
-            </div>
+               <div class="form">
+                  <input type="email" placeholder="your email address" class="email">
+                  <button class="button">GET STARTED</button>
+               </div>
         </form>
+    
+
+        <!-- <div class="image">
+            <img src="virus.jpeg" width="50%" height="50%" alt="blockify">
+        </div> -->
+    </div>
+</div>
     </section>
     <div class="list-image">
         <ul>
@@ -84,9 +86,10 @@
         <div class="container">
             <div class="content2">
                 <h6 class="dog">TESTMONIALS</h6>
-            </div>
-            <h2>Satisfied clients from big brands</h2>
+            
+               <h2>Satisfied clients from big brands</h2>
             <p>Brace yourself for an extraodinary journey into the future of technology</p>
+        </div>
             <div class="testimonial-cards">
                 <div class="testimonial-card">
                     <img src="Ebony.jpg" alt="Michelle Mare">
@@ -104,7 +107,7 @@
                       <img src="Jeff.jpg" alt="Derrick McKinney">
                       <h3>Derrick McKinney</h3>
                       <p>Highly recommend Blockify. Has transformed our work. Exceptional support and resources. Highly satisfied.</p>
-                      <p class="star">&#9733 &#9733 &#9734 &#9733 &#9733</p><br>
+                      <p class="star">&#9733 &#9733 &#9733 &#9733 &#9733</p><br>
                     </div>
                 </div>
                 <div class="listed-image">
@@ -128,14 +131,56 @@
         <div class="container">
             <div>
                 <h6 class="dog" id="card">FAQ</h6>
+               <h2 >Common questions in your mind</h2>
+               <p id="p">we show the frequently question that our ask</p>
             </div>
-            <h2 >Common questions in your mind</h2>
-            <p id="p">we show the frequently question that our ask</p>
-            <div class="faq-item">
-                <h3 class="accordion-header">Who can use Blockify Templates? </h3>
-                <p class="accordion-content">Actually anyone can use our templates for their business purposes, from SaaS companies, software companies, e-commerce profiles, and you can use these templates for your personal websites or portfolio. Just pick what you're working right now. You can use as per your project needs by adjusting the settings of the project that you're working on.</p>
-            </div>
-            <div class="faq-item">
+            <ul id="accordion">
+                <li>
+                    <label for="first">Who can use Blockify Templates? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <div class="content">
+                        <p>Actually anyone can use our templates for their business purposes, from SaaS companies, software companies, e-commerce profiles, and you can use these templates for your personal websites or portfolio. Just pick what you're working right now. You can use as per your project needs by adjusting the settings of the project that you're working on.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="second">How Blockify help my business? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="second">
+                    <div class="content">
+                        <p>Blockify helps by providing valuable insights and tools to streamline your operations and boost productivity.</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="third">How secure our data on this platform? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="third">
+                    <div class="content">
+                        <p>Your data is secured with top-level encryption and security protocols.</p>
+                    </div>
+                </li> <li>
+                    <label for="fourth">How much many I need to pay to use this platform? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="fourth">
+                    <div class="content">
+                        <p>We offer various pricing plans tailored to different needs and budgets.</p>
+                    </div>
+                </li> <li>
+                    <label for="fiveth">Can I connect it with app that our company already used? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="fiveth">
+                    <div class="content">
+                        <p>Yes, our platform integrates seamlessly with various apps and tools your company already uses.</p>
+                    </div>
+                </li> <li>
+                    <label for="sixth">How do I pay for this services? <span>&#x3e</span></label>
+                    <input type="radio" name="accordion" id="sixth">
+                    <div class="content">
+                        <p>We accept various payment methods, including credit cards, PayPal, and more.</p>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+            <!-- <div class="faq-item">
+                <h3 >Who can use Blockify Templates? </h3>
+                <p ></p>
+            </div> -->    
+            <!-- <div class="faq-item">
                 <h3 class="accordion-header">How Blockify help my business?</h3>
                   <p class="accordion-content">Blockify helps by providing valuable insights and tools to streamline your operations and boost productivity.</p>
                 
@@ -145,7 +190,7 @@
                 <p class="accordion-content">Your data is secured with top-level encryption and security protocols.</p>
             </div>
             <div class="faq-item">
-                <h3 class="accordion-header">How much many I need to pay to use this platform?<span>&#x3e</span></h3>
+                <h3 class="accordion-header">How much many I need to pay to use this platform?</h3>
                 <p class="accordion-content">We offer various pricing plans tailored to different needs and budgets.</p>
             </div>
             <div class="faq-item">
@@ -155,21 +200,10 @@
             <div class="faq-item">
                 <h3 class="accordion-header">How do I pay for this services?</h3>
                 <p class="accordion-content">We accept various payment methods, including credit cards, PayPal, and more.</p>
-            </div>
-        </div>
+            </div> -->
+       
     </section>
-    <script>
-        const accordionHeaders = document.querySelectorAll('.accordion-header');
-
-accordionHeaders.forEach(header => {
-  header.addEventListener('click', () => {
-    const content = header.nextElementSibling;   
-
-    content.classList.toggle('active');   
-
-  });
-});
-    </script>
+    
          
         <!-- Call to Action Section -->
     <section class="cta">
